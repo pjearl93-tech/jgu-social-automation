@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JGU Social Automation</title>
+  <meta name="description" content="JGU Social Automation is a social media content management and publishing tool.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0d12;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav strong { font-size: 20px; }
+    nav a {
+      color: #b8bec9;
+      text-decoration: none;
+      margin-left: 24px;
+    }
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      padding: 120px 24px 100px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 7px 13px;
+      border: 1px solid #333a46;
+      border-radius: 30px;
+      color: #b8bec9;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: clamp(45px, 7vw, 82px);
+      line-height: 1.05;
+      margin: 28px 0;
+      max-width: 900px;
+    }
+    .hero p {
+      max-width: 700px;
+      font-size: 20px;
+      color: #aeb5c0;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 24px;
+    }
+    h2 { font-size: 36px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      margin-top: 35px;
+    }
+    .card {
+      background: #141820;
+      border: 1px solid #252b36;
+      border-radius: 18px;
+      padding: 28px;
+    }
+    .card h3 { margin-top: 0; }
+    .card p { color: #aeb5c0; }
+    footer {
+      border-top: 1px solid #252b36;
+      margin-top: 60px;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 24px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      color: #8f97a3;
+    }
+    footer a {
+      color: #b8bec9;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <strong>JGU Social Automation</strong>
+  <div>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+  </div>
+</nav>
+
+<main>
+  <div class="hero">
+    <span class="badge">Social Media Content Management</span>
+
+    <h1>Manage and publish social content more efficiently.</h1>
+
+    <p>
+      JGU Social Automation is a content management tool designed to help
+      authorized users organize, prepare and publish video content to their
+      connected social media accounts.
+    </p>
+  </div>
+
+  <section id="about">
+    <h2>About JGU Social Automation</h2>
+    <p>
+      JGU Social Automation supports the workflow from video content preparation
+      to publishing. Users connect accounts they own or are authorized to manage
+      and explicitly choose the content that will be published.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>What we do</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Content Management</h3>
+        <p>
+          Organize video content and prepare publishing information for
+          connected social media channels.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Content Preparation</h3>
+        <p>
+          Prepare titles, descriptions and hashtags associated with video
+          content before publishing.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>TikTok Publishing</h3>
+        <p>
+          Authorized users can send selected video content to TikTok through
+          TikTok's official Content Posting API.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Publishing Status</h3>
+        <p>
+          Track publishing requests and manage the status of content submitted
+          to connected platforms.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>User Control</h2>
+    <p>
+      JGU Social Automation does not publish content from unauthorized accounts.
+      Users control which accounts are connected and which content is submitted
+      for publishing.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>© 2026 JGU. All rights reserved.</div>
+
+    <div>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
